@@ -1,4 +1,4 @@
-# Proyecto para practicar
+# Proyecto para practicar principios SOLID y Clean Code
 
 Este es un proyecto de Vanilla TypeScript en Vite, para trabajar en Principios SOLID y CleanCode.
 
