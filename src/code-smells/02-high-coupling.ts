@@ -2,7 +2,7 @@
     // No aplicando el principio de responsabilidad única
     type Gender = 'M'|'F';
 
-    // Alto Acoplamiento
+    // Alto Acoplamiento 
 
     class Person {
         constructor(
@@ -61,12 +61,12 @@ class UserSettings extends User {
     const userSettings = new UserSettings(
         '/urs/home',
         '/development',
-        'fernando@google.com',
+        'donBeno@google.com',
         'F',
-        'Fernando',
-        'Herrera',
+        'beno',
+        'Serrano',
         'M',
-        new Date('1985-10-21')
+        new Date('1982-03-12')
     );
 
     console.log({ userSettings, credentials: userSettings.checkCredentials() });

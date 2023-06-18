@@ -52,11 +52,11 @@
     const userSettings = new UserSettings(
         '/usr/home',
         '/home',
-        'fernando@google.com',
+        'donbeno@google.com',
         'Admin',
-        'Fernando',
+        'Beno',
         'M',
-        new Date('1985-10-21')
+        new Date('1982-03-12')
     );
 
     console.log({ userSettings });

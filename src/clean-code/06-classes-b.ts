@@ -88,11 +88,11 @@
 
 
     const userSettings = new UserSettings({
-        birthdate: new Date('1985-10-21'),
-        email: 'fernando@google.com',
+        birthdate: new Date('1982-03-12'),
+        email: 'donbeno@google.com',
         gender: 'M',
         lastOpenFolder: '/home',
-        name: 'Fernando',
+        name: 'Beno',
         role: 'Admin',
         workingDirectory: '/usr/home',
     });

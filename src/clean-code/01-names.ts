@@ -37,7 +37,7 @@
     const numberOfFilesInDirectory = 33;
     
     // primer nombre - first name
-    const firstName = 'Benito';
+    const firstName = 'Beno';
     
     // primer apellido - last name
     const lastName = 'Serrano';

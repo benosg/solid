@@ -26,7 +26,7 @@
     function createActor( fullName: string, birthdate: Date ): boolean {
         
 
-        if ( fullName === 'beno' ) return false;
+        if ( fullName === 'Beno' ) return false;
 
         console.log('Crear actor', birthdate);
         return true;        
