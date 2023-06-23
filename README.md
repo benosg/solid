@@ -4,15 +4,13 @@ Este es un proyecto de Vanilla TypeScript en Vite, para trabajar  sobre Principi
 
 Clonar o descargar el proyecto y luego:
 
-```
 yarn install
 ó
 npm install
-```
 
-Para ejecutar el proyecto, ejecuten
-```
+
+Para ejecutar el proyecto, simplemente ejecuten
+
 yarn dev
 ó
 npm run dev
-```
