@@ -1,8 +1,6 @@
 (() => {
 
 
-    // Resolver sin la triple condicional dentro del if
-    // includes? arrays?
     function isRedFruit( fruit: string ): boolean {
 
         const redFruits = ['manzana','cereza','ciruela'];
@@ -10,8 +8,6 @@
         
     }
 
-    // Simplificar esta función
-    // switch? Object literal? validar posibles colores
     type FruitColor = 'red'|'yellow'|'purple';
 
     function getFruitsByColor( color: FruitColor ): string[] {
@@ -28,10 +24,9 @@
         
         return fruitsByColor[color];
 
- 
     }
 
-    // Simplificar esta función
+
     let isFirstStepWorking  = true;
     let isSecondStepWorking = true;
     let isThirdStepWorking  = true;
@@ -51,15 +46,14 @@
 
     }
 
-    console.log({ isRedFruit: isRedFruit('cereza'), fruit: 'cereza' }); // true
-    console.log({ isRedFruit: isRedFruit('piña'), fruit: 'piña' }); // true
+    console.log({ isRedFruit: isRedFruit('cereza'), fruit: 'cereza' }); 
+    console.log({ isRedFruit: isRedFruit('piña'), fruit: 'piña' }); 
 
-    console.log({ redFruits: getFruitsByColor('red') }); // ['manzana', 'fresa']
-    console.log({ yellowFruits: getFruitsByColor('yellow') }); // ['piña', 'banana']
-    console.log({ purpleFruits: getFruitsByColor('purple') }); // ['moras', 'uvas']
+    console.log({ redFruits: getFruitsByColor('red') }); 
+    console.log({ yellowFruits: getFruitsByColor('yellow') }); 
+    console.log({ purpleFruits: getFruitsByColor('purple') }); 
 
-
-    console.log({ workingSteps: workingSteps() }); // Cambiar los valores de la línea 31 y esperar los resultados
+    console.log({ workingSteps: workingSteps() }); 
 
 
 })();
