@@ -89,10 +89,10 @@
 
     const userSettings = new UserSettings({
         birthdate: new Date('1982-03-12'),
-        email: 'donbeno@google.com',
+        email: 'Benito@google.com',
         gender: 'M',
         lastOpenFolder: '/home',
-        name: 'Beno',
+        name: 'Benito',
         role: 'Admin',
         workingDirectory: '/usr/home',
     });
