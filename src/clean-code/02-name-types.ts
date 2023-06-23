@@ -4,7 +4,7 @@
 
     const serverIp = '123.123.123.123';
 
-    const users = [{id: 1, email: 'fernando@google.com'},{ id: 2, email: 'juan@google.com' }, { id: 3, email: 'melissa@google.com' }];
+    const users = [{id: 1, email: 'Benito@google.com'},{ id: 2, email: 'juan@google.com' }, { id: 3, email: 'pedro@google.com' }];
 
     const userEmails = users.map( user => user.email );
 

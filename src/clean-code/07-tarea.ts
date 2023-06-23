@@ -44,7 +44,7 @@
         }
     }
 
-    const nameField = new InputElement('Benooo', 'Enter first name', 'txtName');
+    const nameField = new InputElement('Benito', 'Enter first name', 'txtName');
 
     console.log({ nameField });
 
