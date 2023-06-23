@@ -8,7 +8,6 @@ yarn install
 ó
 npm install
 
-
 Para ejecutar el proyecto, simplemente ejecuten
 
 yarn dev
